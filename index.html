@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS (optional) -->
+</head>
+<body>
+    
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>Jusper</li>
+        <li>Mercy</li>
+        <li>Enoch</li>
+        <li>Mwaniki</li>
+        <li>Ngare</li>
+    </ol>
+    
+    <!-- External Image from Pexels -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/31275667/pexels-photo-31275667/free-photo-of-cozy-workspace-with-coffee-and-laptop.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Sample Image from Pexels" width="500">
+    
+    <!-- Table with 5 Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Jusper</td>
+            <td>Njiru</td>
+            <td>+254717447730</td>
+            <td>jusperasumwa@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Mercy</td>
+            <td>Machakos, Kenya</td>
+            <td>+25425960499</td>
+            <td>mercynthike@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Mike Onyango</td>
+            <td>Nairobi, Kenya</td>
+            <td>+254712347730</td>
+            <td>mikeonyango2@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Enoch</td>
+            <td>Nyeri, Kenya</td>
+            <td>+254712347723</td>
+            <td>enochmwangi@gmail.com</td>
+        </tr>
+        <tr>
+            <td>David Omari</td>
+            <td>Kisumu, Kenya</td>
+            <td>+2547123437723</td>
+            <td>davidomari@gmail.com</td>
+        </tr>
+    </table>
+    
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter a strong password" required><br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+        
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="kenya">Kenya</option>
+            <option value="canada">Canada</option>
+        </select>
+        <br><br>
+        
+        <label>Interests:</label>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label>
+        <br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+    
+</body>
+</html>
